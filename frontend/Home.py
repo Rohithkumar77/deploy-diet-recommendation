@@ -39,18 +39,6 @@ def main():
         st.write("- Generate personalized meal plans based on your dietary preferences and nutritional needs")
         st.write("- Get detailed nutrition information of foods")
 
-    # Features section
-    with st.container():
-        st.write("Our system offers the following features:")
-        col1, col2 = st.columns(2)
-        with col1:
-            st.image("./assets/diet.jpeg", width=350) 
-            st.write("- Personalized meal plans")
-
-        with col2:
-            st.image("./assets/custom.jpeg", width=350)
-            st.write("- Recipe recommendations")
-
     # How It Works section
     with st.container():
         st.header("How It Works")
